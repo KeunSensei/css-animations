@@ -1,0 +1,31 @@
+body {
+    background-color: rgb(47, 71, 102);
+    font-family: "Nunito Sans", sans-serif;
+  }
+  
+  div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  h1 {
+    font-size: 10rem;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    /* background: url("https://images.pexels.com/photos/19384411/pexels-photo-19384411/free-photo-of-early-sunrise-at-mesa-arch.jpeg"); */
+    
+    color: white;
+    transition: 2s ease-in-out all;
+  }
+
+  h1:hover{
+    background-image: url("https://images.pexels.com/photos/19384411/pexels-photo-19384411/free-photo-of-early-sunrise-at-mesa-arch.jpeg");
+    background-clip: text;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: transparent;
+  }
