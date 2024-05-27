@@ -10,8 +10,7 @@
 *:before, *:after {box-sizing: border-box;}
 
 p{
-	color:white;
-	text-align: center;
+	color:black;
 }
 
 body {
