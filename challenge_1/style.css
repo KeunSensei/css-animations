@@ -9,6 +9,10 @@
 * {box-sizing: border-box;}
 *:before, *:after {box-sizing: border-box;}
 
+p{
+	color:black;
+}
+
 body {
 	height: 100vh;
 	display: flex;
